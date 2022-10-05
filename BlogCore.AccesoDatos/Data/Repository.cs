@@ -22,11 +22,12 @@ namespace BlogCore.AccesoDatos.Data
         {
             Context = context;
             this.dbSet = context.Set<T>();
+
         }
 
         public void Add(T entity)
         {
-           dbSet.Add(entity);
+            dbSet.Add(entity);
         }
 
         public T Get(int id)
@@ -34,50 +35,50 @@ namespace BlogCore.AccesoDatos.Data
             return dbSet.Find(id);
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incudeProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null)
             {
                 query = query.Where(filter);
-            
             }
-            //Include properties separadas por comas
-            if (incudeProperties != null)
+
+            //include properties separadas por comas
+            if (includeProperties != null)
             {
-                foreach (var inclideProperty in incudeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    query = query.Include(inclideProperty);
-                
+                    query = query.Include(includeProperty);
                 }
-  
             }
-            if (orderBy != null )
+
+            if (orderBy != null)
             {
                 return orderBy(query).ToList();
-            
             }
+
             return query.ToList();
         }
 
-        public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string incudeProperties = null)
+        public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null)
             {
                 query = query.Where(filter);
-
             }
-            //Include properties separadas por comas
-            if (incudeProperties != null)
+
+            //include properties separadas por comas
+            if (includeProperties != null)
             {
-                foreach (var inclideProperty in incudeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
-                    query = query.Include(inclideProperty);
-
+                    query = query.Include(includeProperty);
                 }
-
             }
+
             return query.FirstOrDefault();
         }
 

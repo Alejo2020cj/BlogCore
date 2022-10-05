@@ -1,8 +1,3 @@
-C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.csproj.AssemblyReference.cache
-C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.AssemblyInfoInputs.cache
-C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.AssemblyInfo.cs
-C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.csproj.CoreCompileInputs.cache
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.AccesoDatos.deps.json
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.AccesoDatos.dll
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.AccesoDatos.pdb
@@ -10,6 +5,11 @@ C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.Utilidades.dll
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.Models.pdb
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\bin\Debug\net6.0\BlogCore.Utilidades.pdb
+C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.AssemblyInfo.cs
+C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.csproj.CoreCompileInputs.cache
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.csproj.CopyComplete
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\BlogCore.AccesoDatos.dll
 C:\Users\Manolete\Desktop\AplicacionEnNetCore\BlogCore\BlogCore.AccesoDatos\obj\Debug\net6.0\refint\BlogCore.AccesoDatos.dll

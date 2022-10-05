@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*Estilo personalidado*/
+.fondoTitulo {
+    opacity: 0.5;
+    background-color: #000;
+    background: url('/Imagenes/images (1).jfif');
+    padding: 40px 0 40px 0;
+}

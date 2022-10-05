@@ -14,12 +14,12 @@ namespace BlogCore.AccesoDatos.Data.Repository
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>>filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string incudeProperties = null
+            string includeProperties = null
             );
 
         T GetFirstOrDefault(
                Expression<Func<T, bool>> filter = null,
-                string incudeProperties = null
+                string includeProperties = null
             );
         void Add(T entity);
         void Remove(int id);
