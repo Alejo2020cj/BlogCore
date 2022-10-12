@@ -10,7 +10,7 @@ using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 
 namespace BlogCore.Areas.Admin.Controllers
 {
-   
+    [Authorize]
     [Area("Admin")]
     public class CategoriasController : Controller
     {

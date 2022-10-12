@@ -1,6 +1,8 @@
 
 using BlogCore.AccesoDatos.Data;
+using BlogCore.AccesoDatos.Data.Inicializador;
 using BlogCore.AccesoDatos.Data.Repository;
+using BlogCore.Models;
 using BlogCore.Utilidades;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -16,9 +18,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //builder.Services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+//builder.Services.AddScoped<InicializadorDB, InicializadorDB>();
 builder.Services.AddScoped<IContenedorTrabajo, ContenedorTrabajo>();
 //builder.Services.AddIdentity<IdentityUser, IdentityRole> (options => options.SignIn.RequireConfirmedAccount = true)
-builder.Services.AddDefaultIdentity<IdentityUser>().AddRoles<IdentityRole>()
+builder.Services.AddDefaultIdentity<ApplicationUser>().AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
@@ -48,6 +51,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+
 
 app.UseAuthentication();
 app.UseAuthorization();

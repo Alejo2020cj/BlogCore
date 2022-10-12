@@ -15,6 +15,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
         IArticuloRepository Articulo { get; }
         ISliderRepository Slider { get; }
 
+        IUsuarioRepository Usuario { get; }
+
         void Save();
     }
 }
